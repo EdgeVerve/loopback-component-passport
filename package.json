@@ -1,0 +1,45 @@
+{
+  "name": "loopback-component-passport",
+  "description": "LoopBack passport integration to support third party logins and account linking. This is modifications from original project of loopback.",
+  "keywords": [
+    "StrongLoop",
+    "LoopBack",
+    "social",
+    "login",
+    "security"
+  ],
+  "homepage": "https://github.com/edgeverve/loopback-component-passport",
+  "version": "0.8.0",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "maintainers": [
+    {
+      "name": "Atul",
+      "email": "atul_pandit@edgeverve.com"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/edgeverve/loopback-component-passport/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/edgeverve/loopback-component-passport.git"
+  },
+  "dependencies": {
+    "passport": "^0.2.1",
+    "underscore": "^1.8.2"
+  },
+  "peerDependencies": {
+    "loopback": "2.x || 1.x >=1.8.0"
+  },
+  "devDependencies": {
+    "loopback": "^2.14.0",
+    "mocha": "^2.2.0"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -R spec --timeout 10000 test/*.js"
+  },
+  "main": "./lib/index.js",
+  "license": "MIT"
+}
