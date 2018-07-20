@@ -1,3 +1,12 @@
+2018-01-03, oe Version 1.2.0
+============================
+* added oe related changes for facebook login
+
+Previous
+========
+* added cookie support for oe cloud
+
+
 2015-06-24, Version 1.5.0
 =========================
 
